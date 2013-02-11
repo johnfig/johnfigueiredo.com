@@ -1,5 +1,5 @@
 body {
-    background-color:whitesmoke;
+    background-color:rgb(221, 221, 221);
 }
 
 div {
@@ -10,32 +10,56 @@ div {
 	z-index: 1;
 	position: fixed;
 	width: 100%;
-	margin-top: -20px;
+	margin-top: -28px;
 	margin-left: -18px;
 	height: 60px;
-	background-color:whitesmoke;
+	background-color:#fff;
 	margin-bottom: 10px;
 	border:1px solid grey;
+	padding-left:15px;
+	font-size: 25px;
+	color: ##555;
+
 }
 
 #name {
 	float:left;
 	margin-left: 5px;
-	padding-top: 5px;
-	padding-left:10px;
-	font-size: 16px;
+	padding-top: -15px;
+	padding-left:0px;
 	font-family: 'Raleway';
 	color:#555;
+
+}
+
+#name:hover{
+	float:left;
+	margin-left: 5px;
+	padding-top: -15px;
+	padding-left:0px;
+	font-family: 'Raleway';
+	color:black;
+	font-weight: bold;
 }
 
 #email{
 	float:right;
-	margin-right: 5px;
-	padding-top: 5px;
-	padding-right:10px;
-	font-size: 16px;
+	margin-right: 18px;
+	padding-top: -15px;
+	padding-right:0px;
 	font-family: 'Raleway';
 	color: ##555;
+}
+
+img{
+	height:25px;
+	width:25px;
+}
+
+img:hover{
+	height:25px;
+	width:25px;
+	color:white;
 }
 
 h4 {
@@ -61,37 +85,42 @@ a:hover {
 }
 
 .right {
-	float: left;
+	float: right;
 	font-family: 'Raleway';
+	background-color:#fff;
 	color:#555;
-	margin-top: 50px;
+	margin-top: 45px;
 	width: 1000px;
 	height: 800px;
-	background-color:rgb(221, 221, 221);
 	margin-bottom: 10px;
 	border:1px solid grey;
-	padding:20px;
+	padding-left:20px;
+	padding-right:20px;
 	clear:right;
 }
 
 .left {
+	position: fixed;
 	float: left;
-	margin-top: 50px;
-	width: 7%;
-	height: 841px;
-	background-color: black;
+	margin-top: 45px;
+	width: 80px;
+	height: 87%;
+	background-color:#fff;
+	border:1px solid grey;
 	margin-bottom: 10px;
 	clear:right;
 }
 
 #footer {
 	position: relative;
-	height: 50px;
-	background-color:rgb(221, 221, 221);
+	height: 42px;
+	background-color:#fff;
 	clear: both;
 	font-family: 'Raleway';
 	font-size: 14px;
 	text-align: center;
+	margin-left:-18px;
+	margin-bottom:-20px;
 	color: #ffffff;
 	border:1px solid grey;
 }
