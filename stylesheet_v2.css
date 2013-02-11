@@ -1,5 +1,6 @@
 body {
     background-color:rgb(221, 221, 221);
+    font-size: 18px;
 }
 
 div {
@@ -7,6 +8,11 @@ div {
 }
 
 #header {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=96);
+    -moz-opacity: 0.96;
+    -khtml-opacity: 0.96;
+    opacity: 0.96;
 	z-index: 1;
 	position: fixed;
 	width: 100%;
@@ -19,6 +25,7 @@ div {
 	padding-left:15px;
 	font-size: 25px;
 	color: ##555;
+	border-radius: 0px;
 
 }
 
@@ -123,10 +130,17 @@ a:hover {
 	margin-bottom:-20px;
 	color: #ffffff;
 	border:1px solid grey;
-	width:110%;
+	width:105%;
+	font-size: 25px;
+	color:#555;
+	padding-top:8px;
+	text-align: left;
+	padding-left:20px;
+	border-radius: 0px;
 }
 
 #footer p {
 	position: relative;
-	padding-top: 15px
+	padding-top: 15px;
+	
 }
