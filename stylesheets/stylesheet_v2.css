@@ -61,6 +61,7 @@ div {
 img{
 	height:25px;
 	width:25px;
+	color:#777;
 }
 
 img:hover{
@@ -92,13 +93,14 @@ a:hover {
 }
 
 .right {
-	float: right;
+	float: left;
 	font-family: 'Raleway';
 	background-color:#fff;
 	color:#555;
-	margin-top: 45px;
-	width: 1000px;
-	height: 800px;
+	margin-top: 42px;
+	margin-left: 110px;
+	width: 980px;
+	height: 850px;
 	margin-bottom: 10px;
 	border:1px solid grey;
 	padding-left:20px;
@@ -109,13 +111,31 @@ a:hover {
 .left {
 	position: fixed;
 	float: left;
-	margin-top: 45px;
-	width: 80px;
-	height: 89%;
+	margin-top: 42px;
+	width: 100px;
+	height: 90%;
 	background-color:#fff;
 	border:1px solid grey;
 	margin-bottom: 10px;
 	clear:right;
+	text-align: center;
+}
+
+.navbar{
+	margin-top:0px;
+}
+
+.button{
+	width: 90px;
+	height: 60px;
+	vertical-align: middle;
+	text-align:center;
+	border:1px solid grey;
+	margin:auto;
+	margin-top:5px;
+	background-color:#F5F5F5;
+	font-weight:bold;
+	line-height:60px;
 }
 
 #footer {
