@@ -79,8 +79,9 @@ img{
 }
 
 img:hover{
-	height:30px;
-	width:30px;
+	height:35px;
+	width:35px;
+	margin-top:0px;
 }
 
 h4 {
