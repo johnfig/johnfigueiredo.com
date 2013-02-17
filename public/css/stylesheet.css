@@ -2,10 +2,11 @@ body {
     background-color:rgb(221, 221, 221);
     font-size: 18px;
     font-family:'Raleway';
+    color: #333333;
 }
 
 div {
-	border-radius: 5px;
+	border-radius: 0px;
 }
 
 #header {
@@ -21,12 +22,27 @@ div {
 	margin-left: -18px;
 	height: 60px;
 	background-color:#fff;
-	margin-bottom: 10px;
 	border:1px solid grey;
 	padding-left:15px;
 	font-size: 25px;
-	color: #333333;
+}
+
+#header2 {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.90;
+    -khtml-opacity: 0.90;
+    opacity: 0.90;
+	z-index: 1;
+	position: center;
+	width: 1040px;
+	height: 60px;
+	background-color:#fff;
+	margin-bottom: 10px;
+	font-size: 25px;
 	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #name {
@@ -34,8 +50,6 @@ div {
 	margin-left: 5px;
 	padding-top: -15px;
 	padding-left:0px;
-	font-family: 'Raleway';
-	color:#333333;
 }
 
 #name:hover{
@@ -43,8 +57,6 @@ div {
 	margin-left: 5px;
 	padding-top: -15px;
 	padding-left:0px;
-	font-family: 'Raleway';
-	color:black;
 	font-weight: bold;
 }
 
@@ -60,7 +72,6 @@ div {
 img{
 	height:25px;
 	width:25px;
-	color:#777;
 }
 
 img:hover{
@@ -72,14 +83,12 @@ img:hover{
 h4 {
 	margin-left: 5px;
 	margin-bottom: 15px;
-	font-family: 'Raleway';
 }
 
 .right p {
-	margin-left: 5px;
+	margin-left: 20px;
 	margin-right: 5px;
 	margin-top: -10px;
-	font-family: 'Raleway';
 	color: #000000;
 }
 
@@ -93,7 +102,6 @@ a:hover {
 
 .right {
 	float: center;
-	font-family: 'Raleway';
 	background-color:#fff;
 	color:#555;
 	margin-top: 45px;
@@ -106,6 +114,7 @@ a:hover {
 	padding-left:20px;
 	padding-right:20px;
 }
+
 /* --------------------------- 
    Take Away Fixed bar for now
    ---------------------------
@@ -120,7 +129,7 @@ a:hover {
 	margin-bottom: 10px;
 	text-align: center;
 }
-*/
+
 
 .navbar{
 	margin-top:0px;
@@ -139,6 +148,7 @@ a:hover {
 	line-height:60px;
 	color:#333333;
 }
+*/
 
 li{
 	list-style-type: circle;
@@ -149,13 +159,12 @@ li{
 	height: 42px;
 	background-color:#fff;
 	clear: both;
-	font-family: 'Raleway';
 	font-size: 14px;
 	text-align: center;
-	margin-left:-18px;
+	margin-left:-12px;
 	margin-bottom:-20px;
 	border:1px solid grey;
-	width:105%;
+	width:100%;
 	font-size: 25px;
 	color:#555;
 	padding-top:8px;
@@ -164,7 +173,13 @@ li{
 	border-radius: 0px;
 }
 
-#footer p {
-	position: relative;
-	padding-top: 15px;
+#footer2 {
+	position: left;
+	text-align: left;
+	width: 1040px;
+	background-color:#fff;
+	margin-bottom: 10px;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }
