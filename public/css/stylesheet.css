@@ -1,7 +1,7 @@
 body {
     background-color:rgb(221, 221, 221);
-    font-size: 18px;
-    font-family:'Raleway';
+    font-size: 20px;
+    font-family: 'Raleway';
     color: #333333;
 }
 
@@ -18,12 +18,13 @@ div {
 	z-index: 1;
 	position: fixed;
 	width: 100%;
-	margin-top: -65px;
+	margin-top: -70px;
 	margin-left: -18px;
 	height: 60px;
 	background-color:#fff;
 	border:1px solid grey;
 	padding-left:15px;
+	padding-bottom:2px;
 	font-size: 25px;
 }
 
@@ -36,13 +37,15 @@ div {
 	z-index: 1;
 	position: center;
 	width: 1040px;
-	height: 60px;
+	height: 50px;
 	background-color:#fff;
 	margin-bottom: 10px;
-	font-size: 25px;
+	font-size: 30px;
 	border-radius: 0px;
+	margin-top:-5px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom:5px;
 }
 
 #name {
@@ -57,7 +60,7 @@ div {
 	margin-left: 5px;
 	padding-top: -15px;
 	padding-left:0px;
-	font-weight: bold;
+	font-weight: none;
 }
 
 #email{
@@ -70,14 +73,14 @@ div {
 }
 
 img{
-	height:25px;
-	width:25px;
+	height:30px;
+	width:30px;
+	margin-top:3px;
 }
 
 img:hover{
 	height:30px;
 	width:30px;
-	color:black;
 }
 
 h4 {
@@ -94,6 +97,7 @@ h4 {
 
 li {
 	list-style-type: square;
+	font-size:20px;
 }
 
 a:hover {
@@ -108,7 +112,7 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 	width: 980px;
-	height: 1000px;
+	height: 1005px;
 	margin-bottom: 10px;
 	border:1px solid grey;
 	padding-left:20px;
@@ -155,22 +159,17 @@ li{
 }
 
 #footer {
-	position: relative;
 	height: 42px;
 	background-color:#fff;
 	clear: both;
 	font-size: 14px;
 	text-align: center;
 	margin-left:-12px;
-	margin-bottom:-20px;
+	margin-bottom:-15px;
 	border:1px solid grey;
 	width:100%;
-	font-size: 25px;
-	color:#555;
 	padding-top:8px;
-	text-align: left;
 	padding-left:20px;
-	border-radius: 0px;
 }
 
 #footer2 {
@@ -178,8 +177,8 @@ li{
 	text-align: left;
 	width: 1040px;
 	background-color:#fff;
+	font-size:30px;
 	margin-bottom: 10px;
-	font-size: 25px;
 	margin-left: auto;
 	margin-right: auto;
 }
