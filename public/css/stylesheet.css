@@ -105,11 +105,44 @@ a:hover {
 	font-weight: bold;
 }
 
-.right {
+.about {
 	float: center;
 	background-color:#fff;
 	color:#555;
 	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	height: 260px;
+	margin-bottom: 10px;
+	border:1px solid grey;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.about img{
+	height:225px;
+	width:300px;
+}
+
+.about-image {
+	float: left;
+	width: 350px;
+	height: 240px;
+	padding-top:15px;
+}
+
+.about-content {
+	float: left;
+	width: 525px;
+	height: 250px;
+}
+
+.right {
+	float: center;
+	background-color:#fff;
+	color:#555;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 980px;
