@@ -125,10 +125,15 @@ a:hover {
 	width:300px;
 }
 
+.about img:hover{
+	height:225px;
+	width:300px;
+}
+
 .about-image {
 	float: left;
 	width: 350px;
-	height: 240px;
+	height: 225px;
 	padding-top:15px;
 }
 
