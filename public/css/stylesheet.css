@@ -123,6 +123,7 @@ a:hover {
 .about img{
 	height:225px;
 	width:300px;
+	margin-top:0px;
 }
 
 .about img:hover{
