@@ -9,6 +9,25 @@ div {
 	border-radius: 0px;
 }
 
+p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+li {
+	font-size:20px;
+	list-style-type: none;
+	line-height: 120%;
+	text-indent: 25px;
+}
+
+.circle {
+	font-size:20px;
+	list-style-type: circle;
+	line-height: 120%;
+	text-indent: 0px;
+}
+
 #header {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=90);
@@ -17,15 +36,17 @@ div {
     opacity: 0.90;
 	z-index: 1;
 	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
+/*	
 	margin-top: -70px;
 	margin-left: -18px;
 	height: 60px;
+*/
 	background-color:#fff;
 	border:1px solid grey;
-	padding-left:15px;
-	padding-bottom:2px;
-	font-size: 25px;
+	font-size: 25px
 }
 
 #header2 {
@@ -36,23 +57,23 @@ div {
     opacity: 0.90;
 	z-index: 1;
 	position: center;
-	width: 1040px;
-	height: 50px;
+	overflow: auto;
+	width: 1030px;
 	background-color:#fff;
-	margin-bottom: 10px;
 	font-size: 30px;
 	border-radius: 0px;
-	margin-top:-5px;
+	margin-top:0px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom:5px;
+	padding: 2px 0;
 }
 
 #name {
 	float:left;
 	margin-left: 5px;
-	padding-top: -15px;
-	padding-left:0px;
+	/* make this margin-left: 0; */
+/*	padding-top: -15px;
+*/	padding-left:0px;
 }
 
 #name:hover{
@@ -63,30 +84,36 @@ div {
 	font-weight: none;
 }
 
-#email{
+.email{
 	float:right;
-	margin-right: 5px;
-	padding-top: -15px;
-	padding-right:0px;
+	margin: 0 5px 0 0;
 	font-family: 'Raleway';
 	color: ##555;
 }
 
+.email:last-child { 
+	margin-right: none;
+}
+
+a.icons {
+	display: block;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	margin: 3px 0 0 0;
+	padding: 0;
+}
+
 img{
-	height:30px;
-	width:30px;
-	margin-top:3px;
+	opacity: .7;
 }
 
 img:hover{
-	height:35px;
-	width:35px;
-	margin-top:0px;
+	opacity: 1;
 }
 
-h4 {
-	margin-left: 5px;
-	margin-bottom: 15px;
+.profile {
+	opacity: 1;
 }
 
 .right p {
@@ -96,34 +123,36 @@ h4 {
 	color: #000000;
 }
 
-li {
-	list-style-type: square;
-	font-size:20px;
+a {
+	color: #333333;  
 }
 
 a:hover {
-	font-weight: bold;
+	color: #333333;
 }
 
 .about {
 	float: center;
 	background-color:#fff;
 	color:#555;
-	margin-top: 45px;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 980px;
-	height: 260px;
+	height: 265px;
 	margin-bottom: 10px;
 	border:1px solid grey;
 	padding-left:20px;
 	padding-right:20px;
 }
 
+.about img:hover{
+	display:none;
+}
+
 .about img{
 	height:225px;
 	width:300px;
-	margin-top:0px;
 }
 
 .about img:hover{
@@ -135,11 +164,12 @@ a:hover {
 	float: left;
 	width: 350px;
 	height: 225px;
-	padding-top:15px;
+	padding-top:20px;
 }
 
 .about-content {
 	float: left;
+	padding-top:20px;
 	width: 525px;
 	height: 250px;
 }
@@ -157,45 +187,6 @@ a:hover {
 	border:1px solid grey;
 	padding-left:20px;
 	padding-right:20px;
-}
-
-/* --------------------------- 
-   Take Away Fixed bar for now
-   ---------------------------
-.left {
-	position: fixed;
-	float: left;
-	margin-top: 42px;
-	width: 100px;
-	height: 90%;
-	background-color:#fff;
-	border:1px solid grey;
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-
-.navbar{
-	margin-top:0px;
-}
-
-.button{
-	width: 90px;
-	height: 60px;
-	vertical-align: middle;
-	text-align:center;
-	border:1px solid grey;
-	margin:auto;
-	margin-top:5px;
-	background-color:#F5F5F5;
-	font-weight:bold;
-	line-height:60px;
-	color:#333333;
-}
-*/
-
-li{
-	list-style-type: circle;
 }
 
 #footer {
