@@ -116,13 +116,6 @@ img:hover{
 	opacity: 1;
 }
 
-.right p {
-	margin-left: 20px;
-	margin-right: 5px;
-	margin-top: -10px;
-	color: #000000;
-}
-
 a {
 	color: #333333;  
 }
@@ -182,11 +175,18 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 	width: 980px;
-	height: 1100px;
+	height: 1000px;
 	margin-bottom: 10px;
 	border:1px solid grey;
 	padding-left:20px;
 	padding-right:20px;
+}
+
+.right p {
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: -10px;
+	color: #000000;
 }
 
 #footer {
