@@ -3,13 +3,27 @@
 	<head>
 			<title>John Figueiredo</title>
 			<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+			<script type="text/javascript" src="http://leandrovieira.com/projects/jquery/lightbox/js/jquery.lightbox-0.5.pack.js"></script>
+			<link rel="stylesheet" type="text/css" href="http://leandrovieira.com/projects/jquery/lightbox/css/jquery.lightbox-0.5.css" media="screen" />
+			<script type="text/javascript">
+			$(function() {
+				$('#name a').lightBox(); // Select all links that contains lightbox in the attribute rel
+				// This, or...
+				//$('#gallery a').lightBox(); // Select all links in object with gallery ID
+				// This, or...
+				//$('a.lightbox').lightBox(); // Select all links with lightbox class
+				// This, or...
+				//$('a').lightBox(); // Select all links in the page
+				// ... The possibility are many. Use your creative or choose one in the examples above
+			});
+			</script>
 	</head>
 	<body>
-		<script src="toggle.js"></script>
 		<div id="header">
 			<div id="header2">
 				
-				<p id="name"><b style="font-family:sans-serif"><a href="http://1.bp.blogspot.com/-q20NhQKVNXk/T88T1y_rCqI/AAAAAAAAAPQ/760_Tip2bBM/s1600/MC_Hammer_gif.gif" class="toggleLink" style="text-decoration: none">John</b>Figueiredo</a></p>
+				<p id="name"><b style="font-family:sans-serif"><a href="http://1.bp.blogspot.com/-q20NhQKVNXk/T88T1y_rCqI/AAAAAAAAAPQ/760_Tip2bBM/s1600/MC_Hammer_gif.gif" rel="lightbox" class="toggleLink" style="text-decoration: none">John</b>Figueiredo</a></p>
 				<p class="email">
 					<a href="http://www.linkedin.com/profile/view?id=38852117&trk=hb_tab_pro_top" class="icons"><img class="shadow" src="images/LinkedIn.png" width="30" heigh="30" /></a>
 				</p>
