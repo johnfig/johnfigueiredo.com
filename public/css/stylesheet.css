@@ -3,6 +3,8 @@ body {
     font-size: 20px;
     font-family: 'Raleway';
     color: #333333;
+    padding: 0;
+    margin: 0;
 }
 
 div {
@@ -68,6 +70,8 @@ li {
 	padding: 2px 0;
 }
 
+
+
 #name {
 	float:left;
 	margin-left: 5px;
@@ -104,11 +108,11 @@ a.icons {
 	padding: 0;
 }
 
-img{
+img.shadow{
 	opacity: .7;
 }
 
-img:hover{
+img.shadow:hover{
 	opacity: 1;
 }
 
@@ -124,11 +128,39 @@ a:hover {
 	color: #333333;
 }
 
+.header-image{ 
+	background-color: #ffffff;
+	background: url('../images/san_francisco.jpg') no-repeat top left;
+	background-size: 100%;
+	float: center;
+	width:100%;
+	height:120px;
+	margin-top:40px;
+	box-shadow: inset 0 0 30px rgba(0,0,0,.90);
+	border:1px solid grey;
+	background-position: 0 -280px;
+	min-width:980px;
+}
+
+/*.header-image img{ 
+	float: center;
+	margin-left: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width:1200px;
+	height:120px;
+	top: 0;
+	left: -10px;
+	box-shadow: inset 0 0 30px rgba(0,0,0,.90);
+	opacity: 0.60;
+}
+*/
 .about {
 	float: center;
 	background-color:#fff;
 	color:#555;
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 980px;
@@ -137,6 +169,7 @@ a:hover {
 	border:1px solid grey;
 	padding-left:20px;
 	padding-right:20px;
+
 }
 
 .about img:hover{
