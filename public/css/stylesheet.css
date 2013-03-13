@@ -1,6 +1,7 @@
 body {
 /*    background-color:#F4F4F4;*/
-		background: url(/images/background_linen.png);
+	/*	background: url(/images/background_linen.png);*/
+		background-color:#fff;
 		width:100%;
 		height:100%;
     font-size: 20px;
@@ -169,7 +170,7 @@ a:hover {
 	width: 980px;
 	height: 265px;
 	margin-bottom: 10px;
-	border:1px solid grey;
+	/*border:1px solid grey;*/
 	padding-left:20px;
 	padding-right:20px;
 
@@ -213,7 +214,7 @@ a:hover {
 	width: 980px;
 	height: 1000px;
 	margin-bottom: 10px;
-	border:1px solid grey;
+	/*border:1px solid grey;*/
 	padding-left:20px;
 	padding-right:20px;
 }
