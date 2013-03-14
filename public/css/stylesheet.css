@@ -64,7 +64,7 @@ li {
 	z-index: 1;
 	position: center;
 	overflow: auto;
-	width: 1030px;
+	width: 990px;
 	background-color:#fff;
 	font-size: 30px;
 	border-radius: 0px;
@@ -171,8 +171,8 @@ a:hover {
 	height: 265px;
 	margin-bottom: 10px;
 	/*border:1px solid grey;*/
-	padding-left:20px;
-	padding-right:20px;
+	/*padding-left:20px;
+	padding-right:20px;*/
 
 }
 
