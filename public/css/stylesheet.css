@@ -64,7 +64,7 @@ li {
 	z-index: 1;
 	position: center;
 	overflow: auto;
-	width: 990px;
+	width: 1000px;
 	background-color:#fff;
 	font-size: 30px;
 	border-radius: 0px;
@@ -72,13 +72,14 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 2px 0;
+	/*border:1px solid grey;*/
 }
 
 
 
 #name {
 	float:left;
-	margin-left: 5px;
+	/*margin-left: 5px;*/
 	/* make this margin-left: 0; */
 /*	padding-top: -15px;
 */	padding-left:0px;
@@ -86,7 +87,7 @@ li {
 
 #name:hover{
 	float:left;
-	margin-left: 5px;
+	/*margin-left: 5px;*/
 	padding-top: -15px;
 	padding-left:0px;
 	font-weight: none;
@@ -94,7 +95,8 @@ li {
 
 .email{
 	float:right;
-	margin: 0 5px 0 0;
+	/*margin: 0 5px 0 0;*/
+	margin-left:5px;
 	font-family: 'Raleway';
 	color: ##555;
 }
@@ -109,7 +111,9 @@ a.icons {
 	height: 30px;
 	overflow: hidden;
 	margin: 3px 0 0 0;
+	margin-right: 0px;
 	padding: 0;
+	/*border:1px solid grey;*/
 }
 
 img.shadow{
@@ -167,7 +171,7 @@ a:hover {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 980px;
+	width: 1000px;
 	height: 265px;
 	margin-bottom: 10px;
 	/*border:1px solid grey;*/
@@ -200,8 +204,9 @@ a:hover {
 .about-content {
 	float: left;
 	padding-top:20px;
-	width: 525px;
+	width: 645px;
 	height: 250px;
+/*	border:1px solid grey;*/
 }
 
 .right {
@@ -211,12 +216,12 @@ a:hover {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 980px;
-	height: 1000px;
+	width: 1000px;
+	height: 1100px;
 	margin-bottom: 10px;
 	/*border:1px solid grey;*/
-	padding-left:20px;
-	padding-right:20px;
+	/*padding-left:20px;
+	padding-right:20px;*/
 }
 
 .right p {
