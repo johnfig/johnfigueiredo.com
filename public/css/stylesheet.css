@@ -186,17 +186,17 @@ a:hover {
 
 .about img{
 	height:225px;
-	width:300px;
+	width:190px;
 }
 
 .about img:hover{
 	height:225px;
-	width:300px;
+	width:190px;
 }
 
 .about-image {
 	float: left;
-	width: 350px;
+	width: 240px;
 	height: 225px;
 	padding-top:20px;
 }
@@ -204,7 +204,7 @@ a:hover {
 .about-content {
 	float: left;
 	padding-top:20px;
-	width: 645px;
+	width: 750px;
 	height: 250px;
 /*	border:1px solid grey;*/
 }
