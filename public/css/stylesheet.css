@@ -268,11 +268,13 @@ a:hover {
 }
 #coolMenu {
     float: left;
+    width:800;
 }
 #coolMenu > li {
     float: left;
     font-size: 30px;
     font-family: 'Raleway';
+    width:800;
 }
 #coolMenu li a {
 display: block;
