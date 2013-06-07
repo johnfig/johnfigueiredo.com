@@ -252,7 +252,88 @@ a:hover {
 	text-align: left;
 	width: 1040px;
 	background-color:#fff;
-	font-size:30px;
+	font-size:25px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* Cool Menu CSS for drop down menu*/
+
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+    float: left;
+    padding-left: 0;
+    width: 250px;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+#coolMenu li a {
+display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 50px;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+    float:left;
+}
+#coolMenu ul li a {
+    width: 80px;
+}
+#coolMenu li:hover ul.noJS {
+    display: block;
+    float: left;
+    width: 200px
+}
+
+/* Main menu
+------------------------------------------*/
+#coolMenu {
+    font-size: 25px;
+    background-color:#fff;
+    margin: 0 0 0 0;
+  	position: left;
+}
+#coolMenu > li > a {
+    background-color:#fff;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+}
+#coolMenu > li:hover > a {
+    color: #000;
+}
+ 
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background-color:#fff;
+    float: center;
+    border:1px solid grey;
+    margin-top: 2px;
+    margin-left: -3px;
+    text-align: center;
+    width: 1000px;
+}
+#coolMenu ul li a {
+		font-size: 22px;
+    color: #000;
+    float: left;
+    padding: 0 0 0 0;
+    width: 250px;
+    text-align: center;
+}
+#coolMenu ul li:hover a {
+    background: #D8D8D8;
+    float: left;
+    padding: 0 0 0 0;
 }

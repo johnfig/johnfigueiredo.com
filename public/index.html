@@ -2,7 +2,9 @@
 <html>
 	<head>
 			<title>John Figueiredo</title>
+
 			<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 			<script type="text/javascript" src="http://leandrovieira.com/projects/jquery/lightbox/js/jquery.lightbox-0.5.pack.js"></script>
 			<link rel="stylesheet" type="text/css" href="http://leandrovieira.com/projects/jquery/lightbox/css/jquery.lightbox-0.5.css" media="screen" />
@@ -15,8 +17,34 @@
 	<body>
 		<div id="header">
 			<div id="header2">
-				
-				<p id="name"><b style="font-family:sans-serif"><a href="http://1.bp.blogspot.com/-q20NhQKVNXk/T88T1y_rCqI/AAAAAAAAAPQ/760_Tip2bBM/s1600/MC_Hammer_gif.gif" rel="lightbox" class="toggleLink" style="text-decoration: none">John</b>Figueiredo</a></p>
+				<ul id="coolMenu" class="noindent" style="width: 500px;">
+			    <li><b>John</b> Figueiredo
+			        <ul class="noJS">
+						        	<!-- Does not work referencing with rackup gem -->
+						        	<script src="../javascript/nojs.js" type="text/javascript"></script>
+						        	<!-- -->
+						        	<script type="text/javascript">
+						        	$(function(){
+									    $('#coolMenu').find('> li').hover(function(){
+												        $(this).find('ul')
+												        .removeClass('noJS')
+												        .stop(true, true).slideToggle('fast');
+												    });
+												});
+						        	</script>
+			        	<li><a href="#About">About</a></li>
+		            <li><a href="#Software">Software</a></li>
+		            <li><a href="#Work">Work</a></li>
+		            <li><a href="#Education">Education</a></li>
+		            <script type="text/javaScript">$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+    }, 500);
+    return false;
+});</script>
+			        </ul>
+			    </li>
+			</ul>
 				<p class="email">
 					<a href="http://www.linkedin.com/profile/view?id=38852117&trk=hb_tab_pro_top" target="_blank" class="icons"><img class="shadow" src="images/LinkedIn.png" width="30" heigh="30" /></a>
 				</p>
@@ -39,13 +67,15 @@
   	<div class="about">
   		<div class="about-image">
   			<img class="profile" src="images/john.png" opacity:"1"/>
+  			<a name="About"></a>
   		</div>
 
-  		<div class="about-content">
+  		<div class="about-content">  			
   			<br>
   			<p style="line-height:130%">I am a 26 year old Software Developer in San Fancisco. I believe that technology is a key driver to providing leverage in all aspects of our lives to better connect, share, and experience life.</p>
   			<br>
   			<p style="line-height:130%">I used to build buildings and I am now passionate about building virtual infrastructure to better everyday lives. Feel free to follow my projects on Github and progress through my personal blog.</p>
+  			<a name="Software"></a>
   		</div>
   		<hr align="left" width="1000px">
   	</div>
@@ -64,10 +94,10 @@
 					<h3>Back-end</h3>
 						<li><em>Operating Systems</em> | Mac OS X, Unix/Linux, Windows</li>
 						<li><em>Test Driven Development</em> | RSpec, Cucumber</li>
-						<li><em>Database development</em> | MySQL, MongoDB, Redis, PostgreSQL, SQlite3</li>	
+						<li><em>Database development</em> | MySQL, MongoDB, Redis, PostgreSQL, SQlite3</li>
+						<a name="Work"></a>	
 						<li><em>Programming languages</em> | Ruby</li>					
 				</ul>
-
 				<hr align="left" width="1000px">
 				<h2>Work Experience</h2>
 					<ul>
@@ -88,6 +118,7 @@
 							</ul>				
 					</ul>
 					<hr align="left" width="1000px">
+				<a name="Education"></a>
 				<h2>Education</h2>
 					<ul>
 						<h3>University of Oregon - Lundquist College of Business</h3>
