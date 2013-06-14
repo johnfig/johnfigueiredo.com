@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 gem 'rack'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
