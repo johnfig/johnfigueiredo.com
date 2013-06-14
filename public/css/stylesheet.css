@@ -24,7 +24,7 @@ li {
 	font-size:20px;
 	list-style-type: none;
 	line-height: 120%;
-	text-indent: 25px;
+	text-indent: 0;
 }
 
 .circle {
