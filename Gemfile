@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'rack'
+gem 'sinatra'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
