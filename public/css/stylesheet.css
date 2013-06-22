@@ -291,11 +291,6 @@ display: block;
 #coolMenu ul li a {
     width: 80px;
 }
-#coolMenu li:hover ul.noJS {
-    display: block;
-    float: left;
-    width: 200px
-}
 
 /* Main menu
 ------------------------------------------*/
