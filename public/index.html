@@ -4,6 +4,7 @@
 			<title>John Figueiredo</title>
 
 			<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+			<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:600,400">
 			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 			<script type="text/javascript" src="http://leandrovieira.com/projects/jquery/lightbox/js/jquery.lightbox-0.5.pack.js"></script>
@@ -18,30 +19,14 @@
 		<div id="header">
 			<div id="header2">
 				<ul id="coolMenu" class="noindent" style="width: 850px;">
-			    <li style="margin:0 0 0 0; width: 850px;"><b>John</b> Figueiredo
-			        <ul class="noJS" style="padding: 0 0 0 0; margin: 0 0 0 -1px; top: 40px;">
-						        	<!-- Does not work referencing with rackup gem -->
-						        	<script src="../javascript/nojs.js" type="text/javascript"></script>
-						        	<!-- -->
-						        	<script type="text/javascript">
-						        	$(function(){
-									    $('#coolMenu').find('> li').hover(function(){
-												        $(this).find('ul')
-												        .removeClass('noJS')
-												        .stop(true, true).slideToggle('fast');
-												    });
-												});
-						        	</script>
+			    <li id="dropDown"style="margin:0 0 0 0; width: 850px;"><b>John</b> Figueiredo
+			        <ul id="dropDown2" class="noJS" style="padding: 0 0 0 0; margin: 0 0 0 -1px; top: 40px;">
+			        	<script src="../javascript/nojs.js" type="text/javascript"></script>
 			        	<li><a href="#About">About</a></li>
 		            <li><a href="#Software">Software</a></li>
 		            <li><a href="#Work">Work</a></li>
 		            <li><a href="#Education">Education</a></li>
-		            <script type="text/javaScript">$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
-    }, 500);
-    return false;
-});</script>
+		            <script src="../javascript/anchor_drop.js" type="text/javascript"></script>
 			        </ul>
 			    </li>
 			</ul>
