@@ -178,6 +178,8 @@ a:hover {
 }
 
 .right {
+	position: relative;
+	clear:both;
 	float: center;
 	background-color:#fff;
 	color:#555;
@@ -192,8 +194,25 @@ a:hover {
 .right p {
 	margin-left: 20px;
 	margin-right: 5px;
-	margin-top: -10px;
 	color: #000000;
+}
+
+.footer_image_div {
+	position: relative;
+	clear:both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	width: 1000px;
+	height: 150px;
+	z-index: 2;
+	margin-top: -165px;
+}
+
+#footer_image {
+	float: right;
+	width: 150px;
+	height: 150px;
 }
 
 #footer {
