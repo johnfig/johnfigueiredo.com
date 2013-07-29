@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:600,400">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script src="../javascript/cycle_images.js" type="text/javascript"></script>
 	</head>
 	<body class="body">
 		<div id="header">
@@ -37,74 +38,68 @@
 				<p class="email"></p>
 			</div>
 		</div>
-		<div class="header-image">
+		<div id="header-image">
 		</div>
   	<div class="about">
-  		<div class="about-image">
-  			<img class="profile" src="images/john.png" opacity:"1"/>
-  			<a name="About"></a>
-  		</div>
-  		<div class="about-content">  			
-  			<br>
-  			<p style="line-height:130%">I am a 26 year old Software Developer in San Fancisco. I believe that technology is a key driver to providing leverage in all aspects of our lives to better connect, share, and experience life.</p>
-  			<br>
-  			<p style="line-height:130%">I used to build buildings and I am now passionate about building virtual infrastructure to better everyday lives. Feel free to follow my projects on Github and progress through my personal blog.</p>
-  			<a name="Software"></a>
-  		</div>
-  		<hr align="left" width="1000px">
   	</div>
     <div class="right">
-			<h2>Software Development</h2>
-				<ul>		
-					<h3>Front-end</h3>
-						<li><em>Rendering</em> | HTML5, CSS3, JavaScript, jQuery, Ajax, CoffeeScript, Haml, ERB</li>
-						<li><em>Web-application Frameworks</em> | Rails, Backbone.js</li>	
-						<li><em>Dynamic adaptation</em> | Consistantly seeking and adhering to new technology standards</li>					
-				</ul>
-				<ul>
-					<h3>Back-end</h3>
-						<li><em>Operating Systems</em> | Mac OS X, Unix/Linux, Windows</li>
-						<li><em>Test Driven Development</em> | RSpec, Cucumber, Selenium, Capybara</li>
-						<li><em>Database development</em> | MySQL, MongoDB, Redis, PostgreSQL, SQlite3</li>
-						<a name="Work"></a>	
-						<li><em>Programming languages</em> | Ruby</li>					
-				</ul>
-				<hr align="left" width="1000px">
-			<h2>Work Experience</h2>
-				<ul>
-					<h3>GoPago</h3>
-						<li><em>Quality Assurance Automation Engineer</em> | 2013 - Present</li>
-						<ul>	
-							<br>
+    	<div class="about-me">
+	  		<div class="about-image">
+	  			<img class="profile" src="images/john.png" opacity:"1"/>
+	  			<a name="About"></a>
+	  		</div>
+	  		<div class="about-content">  			
+	  			<br>
+	  			<p class="p-title">About Me</p>
+	  			<p>I am a 26 year old Software Developer in San Fancisco. I believe that technology is a key driver to providing leverage in all aspects of our lives to better connect, share, and experience life.</p>
+	  			<br>
+	  			<p>I used to build buildings and I am now passionate about building virtual infrastructure to better everyday lives. Feel free to follow my projects on Github and progress through my personal blog.</p>
+	  			<a name="Software"></a>
+  			</div>
+  		</div>
+    	<div class="software-development">
+				<p class="p-header-title">Software Development</p>		
+				<p class="p-title">Front-end</p>
+					<p><em>Rendering</em> | HTML5, CSS3, JavaScript, jQuery, Ajax, CoffeeScript, Haml, ERB</p>
+					<p><em>Frameworks</em> | Rails, Backbone.js</p>	
+					<p><em>Dynamic adaptation</em> | Consistantly seeking and adhering to new technology standards</p>					
+				<br>
+				<p class="p-title">Back-end</p>
+					<p><em>Operating Systems</em> | Mac OS X, Unix/Linux, Windows</p>
+					<p><em>Test Driven Development</em> | RSpec, Cucumber, Selenium, Capybara</p>
+					<p><em>Database development</em> | MySQL, MongoDB, Redis, PostgreSQL, SQlite3</p>
+					<a name="Work"></a>	
+					<p><em>Programming languages</em> | Ruby</p>					
+			</div>
+			<div class="work-experience">
+				<p class="p-header-title">Work Experience</p>
+					<p class="p-title">GoPago</p>
+						<p><em>Quality Assurance Automation Engineer</em> | 2013 - Present</p>	
 							<li class="circle">Automation testing with RSpec</li>
 							<li class="circle">Behavioral driven development with Cucumber</li>
-						</ul>
-					<h3>Sisu Capital</h3>
-						<li><em>Managing Partner</em> | 2012 - Present</li>
-						<ul>	
-							<br>
+					<br>
+					<p class="p-title">Sisu Capital</p>
+						<p><em>Managing Partner</em> | 2012 - Present</p>	
 							<li class="circle">Operate and maintain incubation hedge fund</li>
 							<li class="circle">Fund focused on futures derivatives trading </li>
-						</ul>
-					<h3>GoPago</h3>
-						<li><em>Customer Service Development</em> | 2012 - 2013</li>
-						<ul>
-							<br>
+					<br>
+					<p class="p-title">GoPago</p>
+						<p><em>Customer Service Development</em> | 2012 - 2013</p>
 							<li class="circle">Integrated Custom IVR and Customer Service Software</li>
 							<li class="circle">Scaled department from inception to 10 part time and 6 full time employees within 3 months</li>
 							<li class="circle">Utilized CS Platform to manage both operational and sales deployment within organization</li>
-						</ul>				
-				</ul>
-				<hr align="left" width="1000px">
+				</div>
 				<a name="Education"></a>
-			<h2>Education</h2>
-				<ul>
-					<h3>University of Oregon - Lundquist College of Business</h3>
-					<li><em>Concentration</em> | Finance and Entrepreneurship</li>	
-				</ul>
-				<div class="footer_image_div">
-					<a href="https://github.com/johnfig" target="_blank"><img class="shadow" id="footer_image" src="images/octocat.png"/></a>
-				</div>				
+			<div class="education">
+				<p class="p-header-title">Education</p>
+					<ul>
+						<p class="p-title">University of Oregon - Lundquist College of Business</p>
+						<p><em>Concentration</em> | Finance and Entrepreneurship</p>	
+					</ul>
+					<div class="footer_image_div">
+						<a href="https://github.com/johnfig" target="_blank"><img class="shadow" id="footer_image" src="images/octocat.png"/></a>
+					</div>	
+			</div>			
 		</div>	
 	</body>
 </html>

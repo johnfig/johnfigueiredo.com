@@ -6,14 +6,15 @@
 // 	    });
 // 	});
 
-$(window).scroll(function () { 
-   if ($(window).scrollTop() >= $(document).height() - $(window).height() - 750) {
-	   	$('.body').find('.noJS')
-		    .slideDown('fast');
-   }
+// This function chooses when drop down menu occurs with jQuery
+// $(window).scroll(function () { 
+//    if ($(window).scrollTop() >= $(document).height() - $(window).height() - 920) {
+// 	   	$('.body').find('.noJS')
+// 		    .slideDown('fast');
+//    }
 
-   else {
-	 		$('.body').find('.noJS')
-   			.slideUp('fast');
-	 }
-});
+//    else {
+// 	 		$('.body').find('.noJS')
+//    			.slideUp('fast');
+// 	 }
+// });
