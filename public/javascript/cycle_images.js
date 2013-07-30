@@ -9,7 +9,7 @@ $(function() {
 
   	var nextImage    = $( $img[i] );
   	nextImage.fadeIn(600);
-  }, 30000);
+  }, 8000);
 });
 
 // This ONLY works at 600ms or lower. Need to figure out what conflict is occuring
