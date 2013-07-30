@@ -150,22 +150,52 @@ a:hover {
 }
 
 /*Developer*/
-#quotes:nth-child(3n+2) {
+#quotes:nth-child(4n+1) {
 	margin: 250px 100px 0 25px;
 	color: #EFEDD8;
 }
 
 /*Dreamer*/
-#quotes:nth-child(3n+0) {
-	margin: 390px 100px 0 735px;
-	color:#B5C4C9;
+#quotes:nth-child(4n+2) {
+	margin: 350px 0 0 735px;
+	color: #B2CCFF;
+}
+
+/*Designer*/
+#quotes:nth-child(4n+3) {
+	margin: 10px 100px 0 740px;
+	color: #FFE6FF;
 }
 
 /*Entrepreneur*/
-#quotes:nth-child(3n+1) {
+#quotes:nth-child(4n+0) {
 	margin: 450px 100px 0 300px;
 	color:#DFE0DB;
 }
+
+/*Developer*/
+/*#quotes:nth-child(4n+2) {
+	margin: 250px 100px 0 25px;
+	color: #EFEDD8;
+}*/
+
+/*Dreamer*/
+/*#quotes:nth-child(4n+0) {
+	margin: 350px 100px 0 735px;
+	color:#B5C4C9;
+}*/
+
+/*Designer*/
+/*#quotes:nth-child(4n+3) {
+	margin: 450px 100px 0 300px;
+	color:#DFE0DB;
+}*/
+
+/*Entrepreneur*/
+/*#quotes:nth-child(4n+1) {
+	margin: 450px 100px 0 300px;
+	color:#DFE0DB;
+}*/
 
 .right {
 	position: relative;
