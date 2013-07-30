@@ -11,6 +11,6 @@ $(window).scroll(function () {
 
    else {
 	 		$('.body').find('.footer_image_div')
-   			.slideUp('fast');
+   			.slideUp('normal');
 	 }
 });
