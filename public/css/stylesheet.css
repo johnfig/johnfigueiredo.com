@@ -126,7 +126,6 @@ a:hover {
 #header-image{ 
 	position: relative;
 	background-color: #ffffff;
-	background: url('../background-images/Hike.jpg') no-repeat top left;
 	background-size: 100%;
 	float: center;
 	width:1000px;
@@ -137,6 +136,35 @@ a:hover {
 	box-shadow: inset 0 0 30px rgba(0,0,0,.90);
 	border:1px solid grey;
 	min-width:980px;
+}
+
+#background-image {
+	position:absolute;
+}
+
+#quotes {
+	position:absolute;
+	display:none;
+	font-size: 60px;
+	color: white;
+}
+
+/*Developer*/
+#quotes:nth-child(3n+2) {
+	margin: 250px 100px 0 25px;
+	color: #EFEDD8;
+}
+
+/*Dreamer*/
+#quotes:nth-child(3n+0) {
+	margin: 390px 100px 0 735px;
+	color:#B5C4C9;
+}
+
+/*Entrepreneur*/
+#quotes:nth-child(3n+1) {
+	margin: 450px 100px 0 300px;
+	color:#DFE0DB;
 }
 
 .right {

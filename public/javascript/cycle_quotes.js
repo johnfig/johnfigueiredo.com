@@ -1,14 +1,18 @@
 $(function() {
-	var $img = $("#header-image > #background-image"), i = 0;
-	
+	var $img = $("#header-image > #quotes"), i = 0;
+	var firstImage = $( $img[i] );
+	firstImage.fadeIn(1200);
 	window.setInterval(function() {
   	var currentImage = $( $img[i] );
-  	currentImage.fadeOut(600);
-
+  	currentImage.fadeOut(300);
   	i = ++i % $img.length; 
 
   	var nextImage    = $( $img[i] );
-  	nextImage.fadeIn(600);
+  	nextImage.fadeIn(1200);
+  	// This is NOT smooth at all and looks like garbage. I need to customize something smooth.
+  	// nextImage.animate({
+  	// 	'marginLeft' : "+=5px"
+  	// }, 200);
   }, 30000);
 });
 
