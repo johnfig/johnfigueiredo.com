@@ -196,8 +196,8 @@ a:hover {
 	z-index: 40;
 }
 
-#sticky {
-	position: relative;
+.sticky {
+	position: absolute;
 	clear:both;
 	float: center;
 	background-color:#fff;
@@ -210,7 +210,7 @@ a:hover {
 	z-index: 30;
 }
 
-#sticky div {
+.sticky div {
 	height: 73px;
 	width: 249.5px;
 	color: #fff;
@@ -226,12 +226,12 @@ a:hover {
 	border-left: 1px solid rgba(255,255,255,0.1);
 }
 
-#sticky div:hover {
+.sticky div:hover {
 	opacity: .90;
 	color: #1492d6;
 }
 
-#sticky a {
+.sticky a {
 	height: 73px;
 	width: 200px;
 	color: #fff;
@@ -245,7 +245,7 @@ a:hover {
 /*
 	Going to be used for javascript to turn into fixed div after converting
 */
-#fixed {
+.fixed {
 	z-index: 60;
 	position: fixed;
 	top: 0;
@@ -261,7 +261,7 @@ a:hover {
 	opacity: .95;
 }
 
-#fixed div {
+.fixed div {
 	height: 73px;
 	width: 250px;
 	color: #fff;
@@ -275,13 +275,13 @@ a:hover {
 	box-shadow: -1px 0 0 rgba(0,0,0,0.2);
 }
 
-#fixed div:hover {
+.fixed div:hover {
 	opacity: .60;
 	background-color: #acacac;
 	color: #1492d6;
 }
 
-#fixed div a {
+.fixed div a {
 	height: 73px;
 	width: 250px;
 	color: #fff;
@@ -292,7 +292,7 @@ a:hover {
 	text-decoration: none;
 }
 
-#fixed div a:hover {
+.fixed div a:hover {
 	height: 73px;
 	width: 200px;
 	line-height: 73px;
@@ -322,7 +322,7 @@ h2 {
 	position: relative;
 	clear:both;
 	float: center;
-	margin: 0 0 0 75px;
+	margin: 73px 0 0 75px;
 	padding-top: 5px;
 	width: 850px;
 	height: 220px;
