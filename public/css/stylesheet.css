@@ -86,7 +86,7 @@ li {
 	float:right;
 	margin-left:5px;
 	font-family: 'Raleway';
-	color: ##555;
+	color: #555;
 }
 
 .email:last-child { 
@@ -163,8 +163,10 @@ a:hover {
 
 /*Designer*/
 #quotes:nth-child(4n+3) {
-	margin: 10px 100px 0 740px;
-	color: #FFE6FF;
+	margin: 82px 0px 0 114px;
+	color: #727272;
+	font-size: 51px;
+	word-spacing:5px;
 }
 
 /*Entrepreneur*/
@@ -172,30 +174,6 @@ a:hover {
 	margin: 450px 100px 0 300px;
 	color:#DFE0DB;
 }
-
-/*Developer*/
-/*#quotes:nth-child(4n+2) {
-	margin: 250px 100px 0 25px;
-	color: #EFEDD8;
-}*/
-
-/*Dreamer*/
-/*#quotes:nth-child(4n+0) {
-	margin: 350px 100px 0 735px;
-	color:#B5C4C9;
-}*/
-
-/*Designer*/
-/*#quotes:nth-child(4n+3) {
-	margin: 450px 100px 0 300px;
-	color:#DFE0DB;
-}*/
-
-/*Entrepreneur*/
-/*#quotes:nth-child(4n+1) {
-	margin: 450px 100px 0 300px;
-	color:#DFE0DB;
-}*/
 
 .right {
 	position: relative;
