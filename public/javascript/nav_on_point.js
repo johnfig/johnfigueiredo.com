@@ -11,7 +11,7 @@ $(window).scroll(function(){
    		$('#Software').addClass('Software')
    		$('#Work').removeClass('Work')
     }
-    else if ($(window).scrollTop() < 1240 && $(window).scrollTop() >= 1180) {
+    else if ($(window).scrollTop() < 1395 && $(window).scrollTop() >= 1180) {
     	$('#Software').removeClass('Software')
       $('#Work').addClass('Work')
       $('#Education').removeClass('Education')
