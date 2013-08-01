@@ -450,3 +450,17 @@ hr {
 	padding: 0 0 12px 20px;
 	word-spacing:8px;
 }
+
+#footer a {
+	color: #A1A1A1;
+	-webkit-transition:color .3s ease-in; 
+}
+
+#footer a:hover {
+	color: #333333;;
+}
+
+a#footer-link{
+	color: #A1A1A1;
+	text-decoration: none;
+}
