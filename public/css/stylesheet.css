@@ -166,6 +166,18 @@ a:hover {
 	color:#DFE0DB;
 }
 
+.body-wrapper { 
+	position: relative;
+	background-size: 100%;
+	float: center;
+	width:1000px;
+	height:2000px;
+	margin: 0 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
+	min-width:980px;
+}
+
 .right {
 	position: absolute;
 	clear:both;
@@ -175,7 +187,7 @@ a:hover {
 	margin-right: auto;
 	width: 1000px;
 	height: 1180px;
-	margin: 0 0 10px 133px;
+	margin: 0 0 10px 0px;
 	box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
 	color: #818486;
 	z-index: 40;
@@ -185,18 +197,19 @@ a:hover {
 	position: absolute;
 	clear:both;
 	float: center;
-	background-color:#fff;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1004px;
+	width: 1002px;
 	height: 73px;
-	margin: 0 0 0 -1px;
+	margin: 0 0 0 0px;
 	z-index: 30;
+	background-color: #333c43;
+	opacity: .95;
 }
 
 .sticky div {
 	height: 73px;
-	width: 249.5px;
+	width: 249px;
 	color: #cdd0d4;
 	line-height: 73px;
 	font-size: 16px;
@@ -241,13 +254,12 @@ a:hover {
 	height: 73px;
 	width: 1002px;
 	background-color: #333c43;
-	margin: 0 0 0 132px;
 	opacity: .95;
 }
 
 .fixed div {
 	height: 73px;
-	width: 249.5px;
+	width: 249px;
 	color: #cdd0d4;
 	line-height: 73px;
 	font-size: 16px;
