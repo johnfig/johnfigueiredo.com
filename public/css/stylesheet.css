@@ -171,7 +171,7 @@ a:hover {
 	background-size: 100%;
 	float: center;
 	width:1000px;
-	height:2000px;
+	height:1800px;
 	margin: 0 0 0 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -300,29 +300,29 @@ a:hover {
 }
 
 /*Add for about*/
-/*nav.sticky > a:first > div {
+nav.fixed > a > div.About {
 	background-color: #333c43;
 	background-image: -webkit-radial-gradient(center center, ellipse farthest-corner, #4a5055,#2d3134);
-	color: #333c43;
-}*/
-
-/*div .Software {
-	background-color: #333c43;
-	background-image: -webkit-radial-gradient(center center, ellipse farthest-corner, #4a5055,#2d3134);
-	color: #333c43;
+	color: #fff;
 }
 
-div .Work {
+#Software.Software {
 	background-color: #333c43;
 	background-image: -webkit-radial-gradient(center center, ellipse farthest-corner, #4a5055,#2d3134);
-	color: #333c43;
+	color: #fff;
 }
 
-div .Education {
+#Work.Work {
 	background-color: #333c43;
 	background-image: -webkit-radial-gradient(center center, ellipse farthest-corner, #4a5055,#2d3134);
-	color: #333c43;
-}*/
+	color: #fff;
+}
+
+#Education.Education {
+	background-color: #333c43;
+	background-image: -webkit-radial-gradient(center center, ellipse farthest-corner, #4a5055,#2d3134);
+	color: #fff;
+}
 
 .p-header-title {
 	color: black; 
