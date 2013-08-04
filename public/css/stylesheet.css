@@ -171,37 +171,51 @@ a:hover {
 	background-size: 100%;
 	float: center;
 	width:1000px;
-	height:1950px;
-	margin: 0 0 0 0;
+	height:1280px;
 	margin-left: auto;
 	margin-right: auto;
-	min-width:980px;
 }
 
 .right {
-	position: absolute;
-	clear:both;
+	position: relative;
 	float: center;
 	background-color:#fff;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
-	height: 1180px;
-	margin: 0 0 10px 0px;
+	height: 1110px;
+	margin-top: -75px;
+	margin-bottom: 10px;
 	box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
 	color: #818486;
-	z-index: 40;
+	z-index: 0;
 }
 
-.sticky {
-	position: absolute;
-	clear:both;
+.nav-wrapper {
+	position: relative;
+	width: 100%;
+	height: 73px;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.nav-wrapper-fixed {
+	position: fixed;
+	width: 100%;
+	height: 73px;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.nav-wrapper .sticky {
+	position: center;
 	float: center;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1002px;
 	height: 73px;
-	margin: 0 0 0 0px;
 	z-index: 30;
 	background-color: #333c43;
 	opacity: .95;
@@ -244,12 +258,12 @@ a:hover {
 */
 .fixed {
 	z-index: 60;
-	position: fixed;
+	position: center;
 	top: 0;
 	left: 0;
 	width: 100%;
 	box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-	margin: 0px 0 0 133px;
+	margin: auto;
 	font-size: 25px;
 	height: 73px;
 	width: 1002px;
@@ -442,7 +456,7 @@ hr {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 1210px;
+	margin-top: 30px;
 	width: 1000;
 	height: 150;
 	color: #A1A1A1;
