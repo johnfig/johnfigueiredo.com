@@ -34,6 +34,11 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rails_12factor (0.0.2)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.1)
+    rails_stdout_logging (0.0.2)
     railties (4.0.0)
       actionpack (= 4.0.0)
       activesupport (= 4.0.0)
@@ -60,4 +65,5 @@ DEPENDENCIES
   fancybox-rails (~> 0.2.1)
   gitstagram (~> 0.0.5)
   pony (~> 1.5.1)
+  rails_12factor
   sinatra
