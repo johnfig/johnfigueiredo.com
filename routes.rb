@@ -47,5 +47,5 @@ post '/contact' do
         :authentication       => :plain, 
         :domain               => settings.email_domain
       })
-    :layout => false
+    redirect '/' 
 end
