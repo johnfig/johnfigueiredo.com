@@ -29,10 +29,6 @@ get '/info' do
   hash.to_json
 end
 
-get '/contact' do
-  File.read(File.join('public', 'contact.html.erb'))
-end
-
 post '/contact' do 
     require 'pony'
      Pony.mail(
@@ -51,9 +47,5 @@ post '/contact' do
         :authentication       => :plain, 
         :domain               => settings.email_domain
       })
-    redirect '/success' 
-end
-
-get '/success' do
-  File.read(File.join('public', 'success.html.erb'))
+    :layout => false
 end

@@ -170,13 +170,16 @@
 		<h2>Send us a Message</h2>
 
 		<form id="contact" name="contact" action="#" method="post">
-			<label for="email">Your E-mail</label>
-			<input type="email" id="email" name="email" class="txt">
-			<br>
-			<label for="msg">Enter a Message</label>
-			<textarea id="msg" name="msg" class="txtarea"></textarea>
-			
-			<button id="send">Send E-mail</button>
+		  <label for="name">Your Name</label>
+		  <input type="text" name="name" class="txt">
+		  <br>
+		  <label for="email">Your E-mail</label>
+		  <input id="email" type="text" name="email" class="txt">
+		  <br>
+		  <label for="to">Enter a Message</label>
+		  <textarea id="msg" name="message" class="txtarea"></textarea>
+		  <br>
+		  <button id="send" type="submit" title="Submit" value="Send" class="button">Send E-mail</button>
 		</form>
 	</div>
 
@@ -219,10 +222,10 @@
 					
 					$.ajax({
 						type: 'POST',
-						url: 'sendmessage.php',
+						url: '/contact',
 						data: $("#contact").serialize(),
 						success: function(data) {
-							if(data == "true") {
+							if(data == data) {
 								$("#contact").fadeOut("fast", function(){
 									$(this).before("<p><strong>Success! Your feedback has been sent, thanks :)</strong></p>");
 									setTimeout("$.fancybox.close()", 1000);

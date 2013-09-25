@@ -15,6 +15,13 @@ GEM
       tzinfo (~> 0.3.37)
     atomic (1.1.14)
     builder (3.1.4)
+    columnize (0.3.6)
+    debugger (1.6.1)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.3)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.3)
     erubis (2.7.0)
     fancybox-rails (0.2.1)
       railties (>= 3.1.0)
@@ -57,6 +64,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  debugger
   fancybox-rails (~> 0.2.1)
   gitstagram (~> 0.0.5)
   pony (~> 1.5.1)
