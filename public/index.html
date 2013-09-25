@@ -171,7 +171,7 @@
 
 		<form id="contact" name="contact" action="#" method="post">
 		  <label for="name">Your Name</label>
-		  <input type="text" name="name" class="txt">
+		  <input id="thisname" type="text" name="name" class="txt">
 		  <br>
 		  <label for="email">Your E-mail</label>
 		  <input id="email" type="text" name="email" class="txt">
@@ -198,7 +198,9 @@
 			
 			$("#send").on("click", function(){
 				var emailval  = $("#email").val();
+				var nameval    = $("#thisname").val();
 				var msgval    = $("#msg").val();
+				var nameval   = nameval.length;
 				var msglen    = msgval.length;
 				var mailvalid = validateEmail(emailval);
 				
@@ -207,6 +209,13 @@
 				}
 				else if(mailvalid == true){
 					$("#email").removeClass("error");
+				}
+
+				if(nameval < 4) {
+					$("#thisname").addClass("error");
+				}
+				else if(nameval >= 4){
+					$("#thisname").removeClass("error");
 				}
 				
 				if(msglen < 4) {
