@@ -11,12 +11,12 @@ $(window).scroll(function(){
    		$('#Software').addClass('Software')
    		$('#Work').removeClass('Work')
     }
-    else if ($(window).scrollTop() < 1250 && $(window).scrollTop() >= 1140) {
+    else if ($(window).scrollTop() < 1170 && $(window).scrollTop() >= 1140) {
     	$('#Software').removeClass('Software')
       $('#Work').addClass('Work')
       $('#Education').removeClass('Education')
     }
-    else if ($(window).scrollTop() + $(window).height() > $(document).height()) {
+    else if ($(window).scrollTop() + $(window).height() > $(document).height() - 10) {
     	$('#Work').removeClass('Work')
       $('#Education').addClass('Education')
     }
