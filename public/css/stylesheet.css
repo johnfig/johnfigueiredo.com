@@ -369,18 +369,9 @@ h2 {
 	border-bottom: 1px solid #e8e8e9;
 }
 
-.about-me img:hover{
-	display:none;
-}
-
 .about-me img{
 	height:175px;
-	width:148px;
-}
-
-.about-me img:hover{
-	height:175px;
-	width:148px;
+	width:175px;
 }
 
 .about-image {
