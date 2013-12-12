@@ -303,7 +303,7 @@ a:hover {
 	box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
 	padding-top: 10px;
 	color: #818486;
-	z-index: 9;
+	z-index: 10;
 }
 
 .help-build {
@@ -319,7 +319,7 @@ a:hover {
 	box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
 	padding-top: 10px;
 	color: #818486;
-	z-index: 9;
+	z-index: 10;
 }
 
 .nav-wrapper {
@@ -329,7 +329,7 @@ a:hover {
 	margin-top: 0px;
 	top: 0;
 	left: 0;
-	z-index: 10;
+	z-index: 11;
 }
 
 .nav-wrapper-fixed {
@@ -338,7 +338,7 @@ a:hover {
 	height: 73px;
 	top: -1px;
 	left: 0;
-	z-index: 10;
+	z-index: 11;
 }
 
 .nav-wrapper .sticky {
@@ -567,13 +567,20 @@ hr {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30px;
-	width: 1000;
-	height: 150;
+	margin-top: -10px;
+	width: 1000px;
+	height: 50px;
 	color: #A1A1A1;
-	border-bottom: 1px solid #D4D4D4;
-	padding: 0 0 12px 20px;
+	z-index: 9;
+	padding: 30px 0 0px 20px;
 	word-spacing:8px;
+	background-color:#F3F3F3;
+}
+
+#footer-wrapper {
+	height: 30px;
+	width: 965px;
+	border-bottom: 1px solid #D4D4D4;
 }
 
 #footer a {
