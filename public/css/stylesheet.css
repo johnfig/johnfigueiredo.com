@@ -231,7 +231,16 @@ a:hover {
 #work-embedded-title {
 	color: white; 
 	font-size:50px; 
+	margin-top: 50px;
+	width: 700px;
+	margin-left: 150px;
+}
+
+#project-embedded-title {
+	color: white; 
+	font-size:50px; 
 	margin-top: 150px;
+	padding-top: 30px;
 	width: 700px;
 	margin-left: 150px;
 }
@@ -320,6 +329,7 @@ a:hover {
 	height: 180px;
 	text-align: left;
 	font-size: 22px;
+	color:#333c43;;
 }
 
 .right {
@@ -422,6 +432,7 @@ a:hover {
 	background-color: white;
 	float: left;
 	z-index: 9;
+	opacity: .85;
 }
 
 #job-div:hover {
@@ -438,19 +449,50 @@ a:hover {
 	position: relative;
 	height:	100px;
 	width: 100px;
-	margin-top: 30px;
+	margin-top: 38px;
 	margin-left: 90px;
+	padding-bottom: 10px;
 	z-index: 5;
 }
 
-#job-description {
+#job-icon-gopago {
+	position: relative;
+	height:	120px;
+	width: 120px;
+	margin-top: 30px;
+	margin-left: 80px;
+	z-index: 5;
+}
+
+#job-title {
 	position: relative;
 	margin-top: 20px;
-	height: 250px;
+	height: 50px;
 	width: 260px;
 	padding: 0 10px;
 	color: black;
 	z-index: 5;
+	color: #333c43;;
+	/*background-color: yellow;*/
+	font-size: 26px;
+}
+
+#job-title-underline {
+	background-color: black;
+	height: 1px;
+	width: 80px;
+	margin-left: 100px;
+}
+
+#job-description {
+	position: relative;
+	margin-top: 25px;
+	height: 200px;
+	width: 260px;
+	padding: 0 10px;
+	color: black;
+	z-index: 5;
+	color: #333c43;;
 }
 
 .nav-wrapper {

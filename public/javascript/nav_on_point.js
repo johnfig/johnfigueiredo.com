@@ -6,17 +6,17 @@ $(window).scroll(function(){
 			$('#About').addClass('About')
 			$('#Software').removeClass('Software')
 		}
-    else if ($(window).scrollTop() < 1470 && $(window).scrollTop() >= 749) {
+    else if ($(window).scrollTop() < 1471 && $(window).scrollTop() >= 749) {
     	$('#About').removeClass('About')
    		$('#Software').addClass('Software')
    		$('#Work').removeClass('Work')
     }
-    else if ($(window).scrollTop() < 2598 && $(window).scrollTop() >= 1470) {
+    else if ($(window).scrollTop() < 2498 && $(window).scrollTop() >= 1471) {
     	$('#Software').removeClass('Software')
       $('#Work').addClass('Work')
       $('#Education').removeClass('Education')
     }
-    else if ($(window).scrollTop() >= 2598) {
+    else if ($(window).scrollTop() >= 2498) {
     	$('#Work').removeClass('Work')
       $('#Education').addClass('Education')
     }
