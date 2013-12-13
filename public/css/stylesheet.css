@@ -246,7 +246,7 @@ a:hover {
 }
 
 #header-title-black {
-	margin-top: 100px;
+	padding-top: 20px;
 	color: black; 
 	font-size:50px; 
 }
@@ -330,6 +330,27 @@ a:hover {
 	text-align: left;
 	font-size: 22px;
 	color:#333c43;;
+}
+
+#profile-picture-wrapper {
+	width:800;
+	height:250;
+	margin-left: 120px;	
+}
+
+#jump-profile-div {
+	margin-top: 140px;
+	float: left;
+	padding-left: 40px;
+}
+
+#jump-image {
+	opacity: .8;
+}
+
+#jump-image:hover {
+  color: rgb(156, 218, 240);
+  opacity: 1;
 }
 
 .right {
@@ -432,6 +453,9 @@ a:hover {
 	background-color: white;
 	float: left;
 	z-index: 9;
+	-moz-transition: opacity 0.75s;
+  -webkit-transition: opacity 0.75s;
+  transition: opacity 0.75s;
 	opacity: .85;
 }
 
