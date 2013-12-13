@@ -15,6 +15,6 @@ $('#Work').click(function(){
  });
 
 $('#Education').click(function(){
-    $("html, body").animate({ scrollTop: 2781 }, 1500);
+    $("html, body").animate({ scrollTop: 2598 }, 1500);
     return false;
  });

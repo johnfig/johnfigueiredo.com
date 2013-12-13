@@ -232,10 +232,18 @@ a:hover {
 	color: white; 
 	font-size:50px; 
 	margin-top: 150px;
+	width: 700px;
+	margin-left: 150px;
 }
 
 #header-title-black {
 	margin-top: 100px;
+	color: black; 
+	font-size:50px; 
+}
+
+#header-title-black-work {
+	padding-top: 80px;
 	color: black; 
 	font-size:50px; 
 }
@@ -257,14 +265,14 @@ a:hover {
 #work-header-title-image-div {
 	margin-left: 550px;
 	height:2px;
-	margin-top: -5px;
+	margin-top: -55px;
 	width:112px;
 	background-color: black;
 }
 
 #project-header-title-image-div {
 	margin-left: 500px;
-	margin-top: -10px;
+	margin-top: -60px;
 	height:2px;
 	width:80px;
 	background-color: black;
@@ -295,9 +303,9 @@ a:hover {
 .about-image {
 	float: center;
 	margin-left:auto;
-    margin-right:auto;
-    background-color: white;
-    opacity: .95;
+  margin-right:auto;
+  background-color: white;
+  opacity: .95;
 	width: 350px;
 	height: 350px;
 	padding-top:40px;
@@ -318,11 +326,11 @@ a:hover {
 	position: relative;
 	float: center;
 	text-align: center;
-	background-color:#fff;
+	/*background-color:#fff;*/
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
-	height: 900px;
+	height: 695px;
 	margin-top: -50px;
 	margin-bottom: 10px;
 	box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
@@ -331,11 +339,17 @@ a:hover {
 	z-index: 10;
 }
 
+#work-bottom-wrapper {
+	width: 1000px;
+	height: 120px;
+	background-color: white;
+}
+
 .help-build {
 	position: relative;
 	float: center;
 	text-align: center;
-	background-color:#fff;
+	/*background-color:#fff;*/
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
@@ -346,6 +360,97 @@ a:hover {
 	padding-top: 10px;
 	color: #818486;
 	z-index: 10;
+}
+
+#help-build-top-wrapper {
+	width: 1000px;
+	height: 200px;
+	margin-top: 0px;
+	background-color: white;	
+}
+
+#header-title-black-job {
+	position: relative;
+	padding-top: 80px;
+	color: black; 
+	font-size:50px;
+}
+
+#help-build-wrapper {
+	width: 1000px;
+	height: 400px;
+	margin-top: 50px;
+}
+
+#help-build-bottom-wrapper {
+	width: 1000px;
+	height: 108px;
+	background-color: white;
+}
+
+#outer-job-spacer {
+	width: 50px;
+	height: 400px;
+	background-color: white;
+	float: left
+}
+
+#inner-job-spacer {
+	width: 30px;
+	height: 400px;
+	background-color: white;
+	float: left
+}
+
+#job-div-wrapper {
+	position: relative;
+	width: 280px;
+	height: 400px;
+	float: left;
+	z-index: 1;
+}
+
+#job-div-wrapper:hover {
+	background-color: white;
+	opacity: .2;
+}
+
+#job-div {
+	position: relative;
+	width: 280px;
+	height: 400px;
+	background-color: white;
+	float: left;
+	z-index: 9;
+}
+
+#job-div:hover {
+	position: relative;
+	background-color: white;
+	-moz-transition: opacity 0.75s;
+  -webkit-transition: opacity 0.75s;
+  transition: opacity 0.75s;
+	opacity: .6;
+	z-index: 1;
+}
+
+#job-icon {
+	position: relative;
+	height:	100px;
+	width: 100px;
+	margin-top: 30px;
+	margin-left: 90px;
+	z-index: 5;
+}
+
+#job-description {
+	position: relative;
+	margin-top: 20px;
+	height: 250px;
+	width: 260px;
+	padding: 0 10px;
+	color: black;
+	z-index: 5;
 }
 
 .nav-wrapper {
