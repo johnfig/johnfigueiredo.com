@@ -142,8 +142,8 @@ a:hover {
 	position:fixed;
 	margin-bottom: 0px;
 	margin-top: -235px;
-	height:150%;
-	width:150%;
+	height:135%;
+	width:110%;
 	z-index: 8;
 	clip:rect(0px,1000px,900px,0px);
 }
@@ -246,6 +246,30 @@ a:hover {
 	width:100px;
 }
 
+#about-header-title-image-div {
+	margin-left: 390px;
+	height:2px;
+	margin-top: -5px;
+	width:135px;
+	background-color: black;
+}
+
+#work-header-title-image-div {
+	margin-left: 550px;
+	height:2px;
+	margin-top: -5px;
+	width:112px;
+	background-color: black;
+}
+
+#project-header-title-image-div {
+	margin-left: 500px;
+	margin-top: -10px;
+	height:2px;
+	width:80px;
+	background-color: black;
+}
+
 #about-me {
 	position: relative;
 	float: center;
@@ -293,6 +317,7 @@ a:hover {
 .right {
 	position: relative;
 	float: center;
+	text-align: center;
 	background-color:#fff;
 	margin-left: auto;
 	margin-right: auto;
@@ -309,6 +334,7 @@ a:hover {
 .help-build {
 	position: relative;
 	float: center;
+	text-align: center;
 	background-color:#fff;
 	margin-left: auto;
 	margin-right: auto;
