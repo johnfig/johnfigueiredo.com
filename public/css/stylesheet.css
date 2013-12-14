@@ -479,6 +479,14 @@ a:hover {
 	z-index: 5;
 }
 
+#project-icon {
+	position: relative;
+	margin-top: 8px;
+	height:	100px;
+	width: 100px;
+	z-index: 5;
+}
+
 #job-icon-gopago {
 	position: relative;
 	height:	120px;
