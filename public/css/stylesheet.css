@@ -142,10 +142,12 @@ a:hover {
 	position:fixed;
 	margin-bottom: 0px;
 	margin-top: -235px;
-	height:135%;
-	width:110%;
+	height:auto;
+	width:100%;
+	min-height: 110%;
+	min-width:1000px;
 	z-index: 8;
-	clip:rect(0px,1000px,900px,0px);
+	clip:rect(0px,1000px,auto,0px);
 }
 
 #quotes {
@@ -186,7 +188,7 @@ a:hover {
 	background-size: 100%;
 	float: center;
 	width:1000px;
-	height:1280px;
+	height:100%;
 	margin-left: auto;
 	margin-right: auto;
 }
