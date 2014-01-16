@@ -266,24 +266,24 @@ a:hover {
 }
 
 #about-header-title-image-div {
-	margin-left: 390px;
+	margin-left: 430px;
 	height:2px;
 	margin-top: -5px;
-	width:135px;
+	width:140px;
 	background-color: black;
 }
 
 #work-header-title-image-div {
-	margin-left: 550px;
+	margin-left: 380px;
 	height:2px;
 	margin-top: -55px;
-	width:112px;
+	width:250px;
 	background-color: black;
 }
 
 #project-header-title-image-div {
-	margin-left: 500px;
-	margin-top: -60px;
+	margin-left: 460px;
+	margin-top: -55px;
 	height:2px;
 	width:80px;
 	background-color: black;
@@ -412,7 +412,7 @@ a:hover {
 #help-build-wrapper {
 	width: 1000px;
 	height: 400px;
-	margin-top: 50px;
+	margin-top: 45px;
 }
 
 #help-build-bottom-wrapper {
