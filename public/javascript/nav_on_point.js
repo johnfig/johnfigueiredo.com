@@ -11,12 +11,12 @@ $(window).scroll(function(){
    		$('#Software').addClass('Software')
    		$('#Work').removeClass('Work')
     }
-    else if ($(window).scrollTop() < 2498 && $(window).scrollTop() >= 1471) {
+    else if ($(window).scrollTop() < 2493 && $(window).scrollTop() >= 1471) {
     	$('#Software').removeClass('Software')
       $('#Work').addClass('Work')
       $('#Education').removeClass('Education')
     }
-    else if ($(window).scrollTop() >= 2498) {
+    else if ($(window).scrollTop() >= 2493) {
     	$('#Work').removeClass('Work')
       $('#Education').addClass('Education')
     }
