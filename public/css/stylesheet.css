@@ -458,7 +458,7 @@ a:hover {
 	-moz-transition: opacity 0.75s;
   -webkit-transition: opacity 0.75s;
   transition: opacity 0.75s;
-	opacity: .85;
+	opacity: .90;
 }
 
 #job-div:hover {
