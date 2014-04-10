@@ -29,7 +29,8 @@ get '/info' do
   hash.to_json
 end
 
-post '/contact' do 
+post '/contact' do
+  if params[:email] 
     require 'pony'
      Pony.mail(
       :from => params[:name] + "<" + params[:email] + ">",
@@ -48,4 +49,7 @@ post '/contact' do
         :domain               => settings.email_domain
       })
     redirect '/' 
+  else
+    redirect '/'
+  end
 end
