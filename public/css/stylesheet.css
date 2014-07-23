@@ -138,7 +138,7 @@ a:hover {
 	position:absolute;
 }
 
-#embedded-image {
+.embedded-image {
 	position:fixed;
 	margin-bottom: 0px;
 	margin-top: -235px;
@@ -150,37 +150,11 @@ a:hover {
 	clip:rect(0px,1000px,auto,0px);
 }
 
-#quotes {
+.quotes {
 	position:absolute;
 	display:none;
 	font-size: 60px;
 	color: white;
-}
-
-/*Developer*/
-#quotes:nth-child(4n+1) {
-	margin: 250px 100px 0 25px;
-	color: #EFEDD8;
-}
-
-/*Dreamer*/
-#quotes:nth-child(4n+2) {
-	margin: 350px 0 0 735px;
-	color: #B2CCFF;
-}
-
-/*Designer*/
-#quotes:nth-child(4n+3) {
-	margin: 82px 0px 0 114px;
-	color: #727272;
-	font-size: 51px;
-	word-spacing:5px;
-}
-
-/*Entrepreneur*/
-#quotes:nth-child(4n+0) {
-	margin: 450px 100px 0 300px;
-	color:#DFE0DB;
 }
 
 .body-wrapper { 
@@ -209,7 +183,7 @@ a:hover {
 	text-align:center
 }
 
-#embedded-image-div {
+.embedded-image-div {
 	background-color: white;
 	margin-top: -25px;
 	margin-left: 400px;
@@ -217,20 +191,13 @@ a:hover {
 	width:200px;
 }
 
-#embedded-title-image-div {
-	margin-left: 460px;
-	margin-top: 150px;
-	height:2px;
-	width:100px;
-}
-
-#embedded-title {
+.embedded-title {
 	color: white; 
 	font-size:50px; 
 	margin-top: 100px;
 }
 
-#work-embedded-title {
+.work-embedded-title {
 	color: white; 
 	font-size:50px; 
 	margin-top: 50px;
@@ -238,7 +205,7 @@ a:hover {
 	margin-left: 150px;
 }
 
-#project-embedded-title {
+.project-embedded-title {
 	color: white; 
 	font-size:50px; 
 	margin-top: 150px;
@@ -247,33 +214,27 @@ a:hover {
 	margin-left: 150px;
 }
 
-#header-title-black {
+.header-title-black {
 	padding-top: 20px;
 	color: black; 
 	font-size:50px; 
 }
 
-#header-title-black-work {
+.header-title-black-work {
 	padding-top: 80px;
 	color: black; 
 	font-size:50px; 
 }
 
-#header-title-image-div {
-	margin-left: 460px;
-	height:2px;
-	width:100px;
+.about-header-title-image {
+ margin-left: 430px;
+ height:2px;
+ margin-top: -5px;
+ width:140px;
+ background-color: black;
 }
 
-#about-header-title-image-div {
-	margin-left: 430px;
-	height:2px;
-	margin-top: -5px;
-	width:140px;
-	background-color: black;
-}
-
-#work-header-title-image-div {
+.work-header-title-image {
 	margin-left: 380px;
 	height:2px;
 	margin-top: -55px;
@@ -281,7 +242,7 @@ a:hover {
 	background-color: black;
 }
 
-#project-header-title-image-div {
+.project-header-title-image-div {
 	margin-left: 460px;
 	margin-top: -55px;
 	height:2px;
@@ -334,23 +295,23 @@ a:hover {
 	color:#333c43;;
 }
 
-#profile-picture-wrapper {
+.profile-picture-wrapper {
 	width:800;
 	height:250;
 	margin-left: 120px;	
 }
 
-#jump-profile-div {
+.jump-profile {
 	margin-top: 140px;
 	float: left;
 	padding-left: 40px;
 }
 
-#jump-image {
+.jump-image {
 	opacity: .8;
 }
 
-#jump-image:hover {
+.jump-image:hover {
   color: rgb(156, 218, 240);
   opacity: 1;
 }
@@ -372,7 +333,7 @@ a:hover {
 	z-index: 10;
 }
 
-#work-bottom-wrapper {
+.work-bottom-wrapper {
 	width: 1000px;
 	height: 120px;
 	background-color: white;
@@ -395,60 +356,47 @@ a:hover {
 	z-index: 10;
 }
 
-#help-build-top-wrapper {
+.help-build-top-wrapper {
 	width: 1000px;
 	height: 200px;
 	margin-top: 0px;
 	background-color: white;	
 }
 
-#header-title-black-job {
+.header-title-black-job {
 	position: relative;
 	padding-top: 80px;
 	color: black; 
 	font-size:50px;
 }
 
-#help-build-wrapper {
+.help-build-wrapper {
 	width: 1000px;
 	height: 400px;
 	margin-top: 45px;
 }
 
-#help-build-bottom-wrapper {
+.help-build-bottom-wrapper {
 	width: 1000px;
 	height: 108px;
 	background-color: white;
 }
 
-#outer-job-spacer {
+.outer-job-spacer {
 	width: 50px;
 	height: 400px;
 	background-color: white;
 	float: left
 }
 
-#inner-job-spacer {
+.inner-job-spacer {
 	width: 30px;
 	height: 400px;
 	background-color: white;
 	float: left
 }
 
-#job-div-wrapper {
-	position: relative;
-	width: 280px;
-	height: 400px;
-	float: left;
-	z-index: 1;
-}
-
-#job-div-wrapper:hover {
-	background-color: white;
-	opacity: .2;
-}
-
-#job-div {
+.job-div {
 	position: relative;
 	width: 280px;
 	height: 400px;
@@ -461,7 +409,7 @@ a:hover {
 	opacity: .95;
 }
 
-#job-div:hover {
+.job-div:hover {
 	position: relative;
 	background-color: white;
 	-moz-transition: opacity 0.75s;
@@ -471,7 +419,7 @@ a:hover {
 	z-index: 1;
 }
 
-#job-icon {
+.job-icon {
 	position: relative;
 	height:	100px;
 	width: 100px;
@@ -481,7 +429,7 @@ a:hover {
 	z-index: 5;
 }
 
-#project-icon {
+.project-icon {
 	position: relative;
 	margin-top: 8px;
 	height:	100px;
@@ -489,7 +437,7 @@ a:hover {
 	z-index: 5;
 }
 
-#job-icon-gopago {
+.job-icon-gopago {
 	position: relative;
 	height:	120px;
 	width: 120px;
@@ -498,7 +446,7 @@ a:hover {
 	z-index: 5;
 }
 
-#job-title {
+.job-title {
 	position: relative;
 	margin-top: 20px;
 	height: 50px;
@@ -511,14 +459,14 @@ a:hover {
 	font-size: 26px;
 }
 
-#job-title-underline {
+.job-title-underline {
 	background-color: black;
 	height: 1px;
 	width: 80px;
 	margin-left: 100px;
 }
 
-#job-description {
+.job-description {
 	position: relative;
 	margin-top: 25px;
 	height: 200px;
@@ -702,7 +650,7 @@ h2 {
 	height: 175px;
 }
 
-#about-me-underline {
+.about-me-underline {
 	margin-left: 150px;
 	margin-top: 20px;
 	margin-bottom: 10px;	
@@ -770,7 +718,7 @@ hr {
 	align: "center";
 }
 
-#footer {
+.footer {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -784,22 +732,22 @@ hr {
 	background-color:#F3F3F3;
 }
 
-#footer-wrapper {
+.footer-wrapper {
 	height: 30px;
 	width: 965px;
 	border-bottom: 1px solid #D4D4D4;
 }
 
-#footer a {
+.footer a {
 	color: #A1A1A1;
 	-webkit-transition:color .3s ease-in; 
 }
 
-#footer a:hover {
+.footer a:hover {
 	color: #333333;;
 }
 
-a#footer-link{
+#footer-link {
 	color: #A1A1A1;
 	text-decoration: none;
 }
