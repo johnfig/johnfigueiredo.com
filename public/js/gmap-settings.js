@@ -44,7 +44,7 @@ var mapOptions = {
     '</h4>'+
     '<p>' +
 
-    'Welcome to my office' + "<br>" + "2133 Hayes St." + "<br>" + "San Francisco, CA 94117"
+    "2133 Hayes St." + "<br>" + "San Francisco, CA 94117"
 
     '</p>'+
     '</div>';
