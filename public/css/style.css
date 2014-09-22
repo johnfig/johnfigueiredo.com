@@ -685,6 +685,13 @@ transform: rotate(360deg);
     width: 18px;
     z-index: 20;
 }
+
+@media (max-width:340px) {
+  .timeline .note:after {
+    display: none;
+  }
+}
+
 .timeline .note:nth-of-type(2n) {
     clear: right;
     float: right;
