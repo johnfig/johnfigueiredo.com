@@ -20,14 +20,6 @@ get '/' do
   File.read(File.join('public', 'index.html'))
 end
 
-get '/epic_scroll' do 
-  File.read(File.join('public', 'epic_scroll.html'))
-end
-
-get '/contact' do 
-  File.read(File.join('public', 'contact.html'))
-end
-
 get '/info' do
   content_type :json
   hash.to_json
