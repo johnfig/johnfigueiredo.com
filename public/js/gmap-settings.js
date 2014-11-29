@@ -1,6 +1,6 @@
 // ==========  START GOOGLE MAP ========== //
 function initialize() {
-var myLatLng = new google.maps.LatLng(37.772984,-122.451537);
+var myLatLng = new google.maps.LatLng(37.772984,-122.431537);
 var roadAtlasStyles = [ { "featureType": "landscape", "elementType": "geometry.fill", "stylers": [ { "color": "#474D5D" } ] },{ "elementType": "labels.text.fill", "stylers": [ { "color": "#FFFFFF" } ] },{ "elementType": "labels.text.stroke", "stylers": [ { "visibility": "off" } ] },{ "featureType": "road", "elementType": "geometry.fill", "stylers": [ { "color": "#50525f" } ] },{ "featureType": "road", "elementType": "geometry.stroke", "stylers": [ { "visibility": "on" }, { "color": "#808080" } ] },{ "featureType": "poi", "elementType": "labels", "stylers": [ { "visibility": "off" } ] },{ "featureType": "transit", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] },{ "featureType": "poi", "elementType": "geometry", "stylers": [ { "color": "#808080" } ] },{ "featureType": "water", "elementType": "geometry.fill", "stylers": [ { "color": "#3071a7" }, { "saturation": -65 } ] },{ "featureType": "road", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] },{ "featureType": "landscape", "elementType": "geometry.stroke", "stylers": [ { "color": "#bbbbbb" } ] } ];
 
 var mapOptions = {
@@ -44,7 +44,7 @@ var mapOptions = {
     '</h4>'+
     '<p>' +
 
-    "2133 Hayes St." + "<br>" + "San Francisco, CA 94117"
+    "San Francisco, CA"
 
     '</p>'+
     '</div>';
