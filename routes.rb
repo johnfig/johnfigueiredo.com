@@ -1,5 +1,11 @@
 require 'sinatra'
 require 'json'
+require 'sinatra'
+require 'dalli'
+require 'rack-cache'
+require 'memcachier'
+
+use Rack::Cache
 
 hash = { name: "John Figueiredo",
          email: "john@johnfigueiredo.com",
@@ -18,6 +24,7 @@ set :email_domain, ENV['SENDGRID_DOMAIN'] || 'localhost.localdomain'
 
 get '/' do 
   File.read(File.join('public', 'index.html'))
+  cache_control :public, max_age: 1800  # 30 mins.
 end
 
 get '/info' do
