@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     gitstagram (0.0.5)
+    kgio (2.9.3)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -12,6 +13,7 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
+    raindrops (0.13.0)
     sinatra (1.4.4)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -20,6 +22,10 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    unicorn (4.9.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -28,3 +34,4 @@ DEPENDENCIES
   gitstagram (~> 0.0.5)
   pony (~> 1.5.1)
   sinatra
+  unicorn
