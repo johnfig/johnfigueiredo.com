@@ -5,8 +5,6 @@ require 'dalli'
 require 'rack-cache'
 require 'memcachier'
 
-use Rack::Cache
-
 hash = { name: "John Figueiredo",
          email: "john@johnfigueiredo.com",
          phone: "415.852.8871",
@@ -23,6 +21,7 @@ set :email_service, ENV['EMAIL_SERVICE'] || 'gmail.com'
 set :email_domain, ENV['SENDGRID_DOMAIN'] || 'localhost.localdomain'
 
 get '/' do 
+  cache_control :public, max_age: 1800  # 30 mins.
   File.read(File.join('public', 'index.html'))
 end
 
@@ -55,3 +54,4 @@ post '/contact' do
     redirect '/'
   end
 end
+
