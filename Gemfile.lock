@@ -9,6 +9,7 @@ GEM
       treetop (~> 1.4.8)
     memcachier (0.0.2)
     mime-types (1.25.1)
+    newrelic_rpm (3.10.0.279)
     polyglot (0.3.3)
     pony (1.5.1)
       mail (>= 2.0)
@@ -38,6 +39,7 @@ DEPENDENCIES
   dalli
   gitstagram (~> 0.0.5)
   memcachier
+  newrelic_rpm
   pony (~> 1.5.1)
   rack-cache
   sinatra

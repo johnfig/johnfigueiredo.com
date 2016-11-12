@@ -7,4 +7,6 @@ gem 'unicorn'
 gem 'dalli'
 gem 'rack-cache'
 gem 'memcachier'
+gem 'newrelic_rpm'
+
 
