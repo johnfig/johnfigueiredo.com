@@ -6,13 +6,14 @@ require 'dalli'
 require 'rack-cache'
 require 'memcachier'
 
-hash = { name: "John Figueiredo",
+hash = {
+         name: "John Figueiredo",
          email: "john@johnfigueiredo.com",
          phone: "415.852.8871",
          github: "http://github.com/johnfig",
          portfolio: "www.johnfigueiredo.com",
          twitter: "@FigueiredoJohn",
-         linkedin: "http://www.linkedin.com/pub/john-figueiredo/11/17/a45" 
+         linkedin: "http://www.linkedin.com/pub/john-figueiredo/11/17/a45"
        }
 
 set :email_username, ENV['SENDGRID_USERNAME'] || 'john@johnfigueiredo.com'
@@ -21,7 +22,8 @@ set :email_address, 'john@johnfigueiredo.com'
 set :email_service, ENV['EMAIL_SERVICE'] || 'gmail.com'
 set :email_domain, ENV['SENDGRID_DOMAIN'] || 'localhost.localdomain'
 
-get '/' do 
+get '/' do
+  cache_control :public, max_age: 86400  # 24 hours
   File.read(File.join('public', 'index.html'))
 end
 
@@ -31,7 +33,7 @@ get '/info' do
 end
 
 post '/contact' do
-  if params[:email] 
+  if params[:email]
     require 'pony'
      Pony.mail(
       :from => params[:name] + "<" + params[:email] + ">",
@@ -42,14 +44,14 @@ post '/contact' do
       :via => :smtp,
       :via_options => { 
         :address              => 'smtp.' + settings.email_service, 
-        :port                 => '587', 
-        :enable_starttls_auto => true, 
-        :user_name            => settings.email_username, 
-        :password             => settings.email_password, 
+        :port                 => '587',
+        :enable_starttls_auto => true,
+        :user_name            => settings.email_username,
+        :password             => settings.email_password,
         :authentication       => :plain, 
         :domain               => settings.email_domain
       })
-    redirect '/' 
+    redirect '/'
   else
     redirect '/'
   end
