@@ -22,7 +22,6 @@ set :email_service, ENV['EMAIL_SERVICE'] || 'gmail.com'
 set :email_domain, ENV['SENDGRID_DOMAIN'] || 'localhost.localdomain'
 
 get '/' do 
-  cache_control :public, max_age: 86400  # 24 hours.
   File.read(File.join('public', 'index.html'))
 end
 
